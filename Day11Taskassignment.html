@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Overflow</title>
+        <style>
+            div.scroll{
+                background:aqua;
+                width:80px;
+                height:80px;
+                overflow:scroll;
+            }
+            div.hidden{
+                background:aqua;
+                width:80px;
+                height:80px;
+                overflow:hidden;
+            }
+            div.scrollxy{
+                background:aqua;
+                width:60px;
+                height:50px;
+                overflow-x:scroll;
+                overflow-y:scroll;
+            }
+            div.initial{
+                background:aqua;
+                width:80px;
+                height:80px;
+                overflow:initial;               
+            }
+            div.inherit{
+                background:aqua;
+                width:80px;
+                height:80px;
+                overflow:hidden;             
+            }
+            div.auto{
+                background:aqua;
+                width:50px;
+                height:50px;
+                overflow:auto;              
+            }
+        </style>
+    </head>
+    <body>
+        <p>Overflow</p>
+        <p>Overflow-Inherit</p>
+        <div class="inherit">
+                <div style="overflow: scroll;">The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area</div>
+        </div>
+        <p>Overflow-Scroll</p>
+        <div class="scroll">The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area</div>
+        <p>Overflow-hidden</p>
+        <div class="hidden">The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area</div>
+        <p>Overflow-Scrollxy</p>
+        <div class="scrollxy">The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area</div>
+        <p>Overflow-Auto</p>
+        <div class="auto">The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area</div>
+        <p>Overflow-Initial</p>
+        <div class="initial">The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area</div>
+
+            </body>
+</html>
